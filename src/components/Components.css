@@ -1,0 +1,97 @@
+.Title {
+    font-family: "Shadows Into Light" !important;
+    font-size: 3vh !important;
+    color: #dcdcdc;
+}
+
+.Bar {
+    background-color: #171717 !important;
+    min-height: 2vh;
+    font-size: 3vh;
+    opacity: 0.9;
+}
+
+.Menu {
+    display: flex;
+    justify-content: center !important;
+    vertical-align: middle !important;
+    background-color: #171717 !important;
+}
+
+.MenuItem {
+    font-family: "Amatic SC", sans-serif !important;
+    font-size: 2.4vh !important;
+    font-weight: 600 !important;
+    color: #dcdcdc !important;
+    text-decoration: none !important;
+    margin: 0rem 0.5rem 0rem 0.8rem !important;
+    z-index: 0;
+}
+
+@media only screen and (min-width: 900px) {
+    .RayashuLogoContainer {
+        display: flex;
+        justify-content: end !important;
+        display: block;
+    } 
+    .Drawer {
+        display: none !important;
+    }
+    .MenuContainer {
+        display: flex !important;
+    }
+    .TitleContainer {
+        justify-content: start !important;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .RayashuLogoContainer {
+        display: none !important;
+    } 
+    .Drawer {
+        display: flex !important;
+    }
+    .MenuContainer {
+        display: none !important;
+    }
+    .TitleContainer {
+        justify-content: center !important;
+    }
+}
+
+@font-face
+{
+    font-family: VOX;
+    src: url('./VOX.otf');
+}
+
+.DrawerList {
+    text-align: center;
+}
+
+.css-i9fmh8-MuiBackdrop-root-MuiModal-backdrop {
+    background-color: transparent !important;
+}
+
+.Drawer {
+    background-color: #171717 !important;
+    min-height: 2vh;
+    font-size: 3vh;
+    color: #dcdcdc !important;
+    font-family: "Amatic SC", sans-serif !important;
+    justify-content: center;
+}
+
+.css-10hburv-MuiTypography-root {
+    color: #dcdcdc !important;
+    font-family: "Amatic SC" !important;
+    text-align: center !important;
+    font-size: 3vh !important;
+}
+
+.Icons {
+    color: #dcdcdc !important;
+    text-align: end !important;
+    font-size: 3vh !important;
+}

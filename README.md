@@ -1,3 +1,7 @@
+# Behind DUO
+
+Behind DUO, a game project by Rayashu Corporation, is the focus of this site, aimed at promoting and supporting the game. We have designed the site's aesthetic, frontend, and design elements using grey colors and features inspired by Behind DUO's art and gameplay 🪽
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

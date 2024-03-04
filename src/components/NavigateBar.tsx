@@ -32,7 +32,6 @@ function NavigateBar() {
 
   const DrawerList = (anchor: Anchor) => (
     <Box
-      sx={{ width: anchor === 'top' ? 'auto' : 250, display: { xs: 'flex', md: 'none' } }}
       role="presentation"
       onClick={toggleDrawer(anchor, false)}
       onKeyDown={toggleDrawer(anchor, false)}
